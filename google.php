@@ -62,11 +62,10 @@
     <!-- MAIN FAQ SECTION -->
     <main>
         <div class="container">
-        <?php foreach ($faq as $text) { ?>
-            <h2><?php echo $text['question']; ?></h2>
-            <p><?php echo $text['answer']; ?></p>
-        <?php } ?>   
-
+            <?php foreach ($faq as $text) { ?>
+                <h2><?php echo $text['question']; ?></h2>
+                <p><?php echo $text['answer']; ?></p>
+            <?php } ?>   
         </div>
     </main>
     
