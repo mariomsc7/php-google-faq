@@ -15,7 +15,10 @@
 
 /* HEADER */
 header {
-    height: 105px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
 
@@ -55,6 +58,10 @@ nav ul li:last-child {
 }
 
 /* MAIN */
+
+main {
+    margin-top: 100px;
+}
 
 .container {
     max-width: 1270px;
