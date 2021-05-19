@@ -1,0 +1,60 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* HEADER */
+header {
+    height: 70px;
+    border-bottom: 1px solid #000;
+}
+
+nav ul li {
+    padding: 20px;
+    padding-bottom: 11px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a.active {
+    color: dodgerblue;
+}
+
+nav ul li:last-child {
+    border-bottom: 3px solid dodgerblue;
+}
+
+/* MAIN */
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container h2,
+.container p {
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 50px;
+    background-color: #888;
+} 
